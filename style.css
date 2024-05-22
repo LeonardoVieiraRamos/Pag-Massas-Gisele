@@ -1,0 +1,399 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.fotoCapa{
+
+    width: 100%;
+    height: 400px;
+    
+    
+}
+
+.navegacao{
+
+    height: 36px;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 60%;
+    background-color: rgb(194, 132, 132);
+    font-size: 23px;
+    list-style-type:none;
+    font-weight: bolder;
+    padding: 0.6em;
+    border-style:solid;
+    border-color: rgb(204, 109, 80);
+    
+    
+}
+
+.link1{
+
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    
+}
+
+.link1:hover{
+    color: #ff783a;
+}
+
+.link2{
+
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    
+
+}
+
+.link2:hover{
+    color: #ff783a;
+}
+
+.link3{
+
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    
+
+
+}
+
+.link3:hover{
+    color: #ff783a;
+}
+
+.link4{
+
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+   
+
+}
+
+.link4:hover{
+    color: #ff783a;
+}
+
+.titulo{
+
+    position: relative;
+
+}
+
+
+
+.logo {
+        
+    position: absolute; /* Define o posicionamento absoluto para que a logo seja posicionada em relação ao seu contêiner pai (.titulo) */
+        top: 80px; /* Ajuste conforme necessário para posicionar a logo verticalmente */
+        left: 300px; /* Ajuste conforme necessário para posicionar a logo horizontalmente */
+        z-index: 1; /* Garante que a logo fique acima da imagem de fundo */
+
+}
+
+.container1{
+
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(148, 67, 67);
+    background-image: url("fotos/foto fundo massas.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+    
+
+    
+}
+
+.container2{
+
+    height: 80vh;
+    background-color: rgb(148, 67, 67);
+    background-image: url("fotos/foto descricao.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+
+
+}
+
+.secao1{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    font-weight: 1000;
+    text-align: left;
+    margin: 150px 100px 30px 120px;
+    color: rgb(151, 21, 21);
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+
+}
+
+.secao02{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: left;
+    color: rgb(151, 21, 21);
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+    margin: 0 0 0 40px;
+    
+
+
+}
+
+.secao2{
+    
+    background-repeat:no-repeat ;
+    background-size:contain;
+    text-align:center;
+    
+}
+
+.fotoVinho{
+
+    border-radius: 50%;
+    margin: 40px 0 auto 0;
+
+}
+
+.nossosProdutos{
+
+
+    height: 15vh;
+    text-align: center;
+    background-color: rgb(228, 91, 49);
+    color: aliceblue;
+
+
+}
+
+.titulo2{
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 15vh; 
+    font-size: 45px;
+    font-weight:bolder;
+
+
+}
+
+
+.tira1{
+
+    display: flex;
+    background-image: url("fotos/foto fundo tiras.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+    
+}
+
+    
+.tira2{
+    
+    display: flex;
+    background-image: url("fotos/foto fundo tiras.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    margin-bottom: 10px;
+    
+}   
+
+.tira3{
+    
+    display: flex;
+    background-image: url("fotos/foto fundo tiras.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.tira4{
+    
+    display: flex;
+    background-image: url("fotos/foto fundo tiras.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.tira5{
+    
+    display: flex;
+    background-image: url("fotos/foto fundo tiras.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.tira6{
+    
+    display: flex;
+    background-image: url("fotos/foto fundo tiras.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.fotodef{
+
+    border: 2px solid rgb(245, 78, 0);
+    border-radius: 50%; 
+    margin-left:5%;
+    
+
+}
+
+.foto02{
+
+    border: 2px solid rgb(245, 78, 0);
+    border-radius: 50%; /* Arredondamento das bordas */
+    margin-left:5%;
+
+}
+
+.texto001{
+
+    color: rgb(255, 96, 23);
+    text-align: center;
+    margin: 150px 110px 0 200px;
+    font-size: 43px;
+    font-weight: bold;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+   
+    
+    
+    
+}
+
+.texto002{
+
+    color: rgb(255, 96, 23);
+    text-align: center;
+    margin: 150px 185px 200px;
+    font-size: 43px;
+    font-weight: bold;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.texto003{
+
+    color: rgb(255, 96, 23);
+    text-align: center;
+    margin: 150px 160px 0 200px;
+    font-size: 43px;
+    font-weight: bold;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.texto004{
+
+    color: rgb(255, 96, 23);
+    text-align: center;
+    margin: 150px 70px 0 200px;
+    font-size: 43px;
+    font-weight: bold;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.texto005{
+
+    color: rgb(255, 96, 23);
+    text-align: center;
+    margin: 80px 0 0 195px;
+    font-size: 43px;
+    font-weight: bold;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.texto006{
+
+    color: rgb(255, 96, 23);
+    text-align: center;
+    margin: 80px 0 0 195px;
+    font-size: 43px;
+    font-weight: bold;
+    text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.footer{
+
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+
+
+}
+
+.rodape{
+
+    text-align: center;
+    background-color: #f3dbdb;
+ 
+}
+
+.rodape__logo{
+
+    width: 15%;
+    margin: 5em 0;
+
+}
+
+.rodape__lista{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    list-style-type:none;
+    margin: 0 7em;
+}
+
+.lista__link {
+
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.rodape__texto{
+
+    font-size: 1em;
+    font-family: var(--fonte-principal);
+    margin: 2em 5em;
+    color: #000000;
+
+
+
+}
+
+
